@@ -11,6 +11,6 @@ jobs:
       - run: npm install
       - uses: lannonbr/vsce-action@3.0.0
         with:
-          args: "package --skip-license"
+          args: "package"
         env:
           VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
