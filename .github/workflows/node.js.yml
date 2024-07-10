@@ -16,7 +16,7 @@ jobs:
           VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
       - name: Create Release
         id: create_release
-        uses: actions/create-release@v1
+        uses: actions/create-release@v2.0.5
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
         with:
