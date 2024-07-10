@@ -1,0 +1,91 @@
+{
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v4.0.44",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Utah_teapot_(solid)"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Utah_teapot_(solid)",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "indices": 2
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 22410,
+      "max": [
+        9.272666931152344,
+        3.864192008972168,
+        5.462586879730225
+      ],
+      "min": [
+        -8.303589820861816,
+        -4.707335472106934,
+        -5.464451313018799
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 22410,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5123,
+      "count": 28314,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 268920,
+      "byteOffset": 0,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 268920,
+      "byteOffset": 268920,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 56628,
+      "byteOffset": 537840,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "teapot_data.bin",
+      "byteLength": 594468
+    }
+  ]
+}
